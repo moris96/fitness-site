@@ -9,17 +9,5 @@
     color: white;
 }
 
-/* .logo {
-    width: 250px;
-    height: 154px;
-} */
 
 
-.title-logo-container {
-    display: flex;
-    align-items: center; /* Align items vertically */
-  }
-  
-  .logo {
-    margin-left: -55px; /* Adjust margin as needed */
-  }
