@@ -1,9 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'; // Importing social media icons
 import './Trainers.css';
 
 const Trainers = () => {
   return (
-    <>
     <div id='trainers'>
         {/* <h1>Our Trainers</h1> */}
         <div className="container d-flex align-items-center justify-content-center position-relative flex-wrap">
@@ -13,6 +14,12 @@ const Trainers = () => {
             </div>
             <div className="content">
                 <h2>Leonidas</h2>
+                {/* Social media icons */}
+                <div className="social-icons">
+                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
             </div>
             </div>
@@ -22,6 +29,12 @@ const Trainers = () => {
             </div>
             <div className="content">
                 <h2>Kassandra</h2>
+                {/* Social media icons */}
+                <div className="social-icons">
+                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
             </div>
             </div>
@@ -31,13 +44,17 @@ const Trainers = () => {
             </div>
             <div className="content">
                 <h2>Kratos</h2>
+                {/* Social media icons */}
+                <div className="social-icons">
+                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac sed dolor.</p>
             </div>
             </div>
         </div>
     </div>
-    </>
-    
   );
 };
 
