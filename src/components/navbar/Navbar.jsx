@@ -85,6 +85,7 @@ const Navbar = () => {
           <Nav className='ms-auto'>
             <Nav.Link as={NavLink} to='/' exact>Home</Nav.Link>
             <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
+            <Nav.Link as={NavLink} to='/trainers'>Trainers</Nav.Link>
           </Nav>
         </NavbarBs.Collapse>
       </Container>
