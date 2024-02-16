@@ -22,18 +22,21 @@ import './Home.css';
 const Home = () => {
   return (
     <div id='home' className='container-fluid p-0'>
-      <div className='text-center mt-5'>
-        <h1>Spartan</h1>
-      </div>
-      <div className='text-center mt-2'>
-        <h1 className='left-aligned'>Fitness</h1>
+
+      <div className='title-logo-container'>
+        <div className='text-center mt-5'>
+          <h1 className='title1'>Spartan</h1>
+        </div>
+        <div className='text-center mt-2'>
+          <h1 className='left-aligned title2'>Fitness</h1>
+        </div>
       </div>
 
       <div className='background'>
         <div className='jumbotron jumbotron-fluid text-center'>
           <div className='container'>
-            <h1 className='display-4'>Welcome to Spartan Fitness</h1>
-            <p className='lead'>We are a fitness center that offers a variety of services to help you reach your fitness goals. Our services include personal training, group fitness classes, and a variety of fitness equipment. We are open 24/7 and are located in the heart of Sparta, the mightiest city in all of Greece!</p>
+          <br /><br /><br />
+            <h3 className='description'>We only accept the most serious of warriors to help train them to be the next generation of Spartans. We also offer classes in art, science, and philosophy to help strengthen the mind as well as body.</h3>
           </div>
         </div>
       </div>

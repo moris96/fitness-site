@@ -1,5 +1,25 @@
+.title1, .title2 {
+    color: ghostwhite;
+    font-size: 100px;
+    /* box-shadow: black 0px 0px 10px; */
+}
+
+.title-logo-container {
+    text-shadow: 0 13.36px 8.896px #000000, 0 -2px 1px #000000;
+    letter-spacing: -4px;
+    color: #000000;
+}
+
+.description {
+    text-shadow: 0 13.36px 8.896px #000000, 0 -2px 1px #000000;
+    letter-spacing: -4px;
+    color: #000000;
+    color: ghostwhite;
+    font-size: 40px;
+}
+
 .left-aligned {
-    margin-left: 60px; /* Adjust this value as needed */
+    margin-left: 60px; 
 }
 
 .background {
