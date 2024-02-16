@@ -86,6 +86,8 @@ const Navbar = () => {
             <Nav.Link as={NavLink} to='/' exact>Home</Nav.Link>
             <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
             <Nav.Link as={NavLink} to='/trainers'>Trainers</Nav.Link>
+            <Nav.Link as={NavLink} to='/pricing'>Pricing</Nav.Link>
+            <Nav.Link as={NavLink} to='/contact'>Contact</Nav.Link>
           </Nav>
         </NavbarBs.Collapse>
       </Container>
